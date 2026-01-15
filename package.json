@@ -1,0 +1,24 @@
+{
+  "name": "@chinhae/oxyccg",
+  "version": "1.0.0",
+  "description": "OxyCCG - Claude+Codex+Gemini 多模型协作开发工作流一键安装",
+  "bin": {
+    "oxyccg": "./bin/cli.js"
+  },
+  "files": ["bin", "lib"],
+  "keywords": ["claude", "codex", "gemini", "ai", "workflow", "multi-model"],
+  "author": "chinhae",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LFT-OXY/oxyccg"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1"
+  }
+}
